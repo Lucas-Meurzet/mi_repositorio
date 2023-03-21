@@ -33,12 +33,14 @@ body{
   height: 50vh;
   width: 100vh;
   margin: 10vh; 
+  box-sizing: border-box;
 }
 
 .componentes{
   height: 50vh;
   width: 100vh;
   margin: 10vh;
+  box-sizing: border-box;
 }
 
 /* Index Main */
@@ -76,6 +78,8 @@ justify-content: center;
   margin: 10vh;
   padding: 5vh;
   display: flex;
+  overflow: auto;
+  box-sizing: border-box;
 }
 /* Formulario */
 
