@@ -40,10 +40,13 @@ body{
   width: 100vh;
   margin: 10vh;
 }
+
 /* Index Main */
 
 /* Servicios */
 .servicio-1{
+width: 50vh;
+height: 70vh;
 margin: 10vh;
 display: flex;
 text-align: center;
