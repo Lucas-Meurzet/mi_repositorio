@@ -32,14 +32,17 @@ body{
 .computadoras{
   height: 50vh;
   width: 100vh;
-  margin: 10vh;
-  
+  margin: 10vh; 
 }
 
 .componentes{
   height: 50vh;
   width: 100vh;
   margin: 10vh;
+}
+
+.componente h5{
+
 }
 /* Index Main */
 
