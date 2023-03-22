@@ -38,6 +38,10 @@ body{
 .computadoras img{
 object-fit: contain;
 }
+.computadoras button a{
+  text-decoration: none;
+  color: white;
+} 
 
 .componentes{
   height: 70%;
@@ -47,6 +51,10 @@ object-fit: contain;
 .componentes img{
 object-fit: contain;
 }
+.componentes button a{
+  text-decoration: none;
+  color: white;
+} 
 
 /* Index Main */
 
