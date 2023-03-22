@@ -31,17 +31,17 @@ body{
 
 /* Index Main */
 .computadoras{
-  height: 50vh;
-  width: 100vh;
-  margin: 10vh; 
+  height: 60%;
+  width: 40%;
+  margin: 30px; 
   box-sizing: border-box;
   overflow: hidden;
 }
 
 .componentes{
-  height: 50vh;
-  width: 100vh;
-  margin: 10vh;
+  height: 60%;
+  width: 40%;
+  margin: 30px;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -78,8 +78,8 @@ justify-content: center;
   background-color: white;
   width: 60%;
   height: 700px;
-  margin: 10vh;
-  padding: 5vh;
+  margin: 50px;
+  padding: 35px;
   display: flex;
   box-sizing: border-box;
   overflow: auto;
@@ -90,8 +90,8 @@ justify-content: center;
 .nosotros-main{
 width: 100%;
 height: 80%;
-margin: 5px;
-padding: 5vh;
+margin: 20px;
+padding: 60px;
 box-sizing: border-box;
 }
 
@@ -117,7 +117,7 @@ background-color: black;
 border-radius: 5px;
 }
 .nosotros p{
-  justify-content: center;
+  text-align: justify;
   color: white;
   font-size: 20px;
 }
