@@ -31,19 +31,21 @@ body{
 
 /* Index Main */
 .computadoras{
-  height: 60%;
-  width: 40%;
+  height: 70%;
+  width: 90%;
   margin: 30px; 
-  box-sizing: border-box;
-  overflow: hidden;
+}
+.computadoras img{
+object-fit: contain;
 }
 
 .componentes{
-  height: 60%;
-  width: 40%;
+  height: 70%;
+  width: 90%;
   margin: 30px;
-  box-sizing: border-box;
-  overflow: hidden;
+}
+.componentes img{
+object-fit: contain;
 }
 
 /* Index Main */
