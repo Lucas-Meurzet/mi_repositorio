@@ -25,14 +25,13 @@ body{
 100%{
   background-position: 0% 50%;
 }
-
 }
 /* Fondo Animado */
 
 /* Index Main */
 .computadoras{
-  height: 70%;
-  width: 90%;
+  height: 600px;
+  width: 850px;
   margin: 30px; 
 }
 .computadoras img{
@@ -44,8 +43,8 @@ object-fit: contain;
 } 
 
 .componentes{
-  height: 70%;
-  width: 90%;
+  height: 600px;
+  width: 850px;
   margin: 30px;
 }
 .componentes img{
