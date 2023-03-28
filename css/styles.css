@@ -187,4 +187,55 @@ border-radius: 5px;
 }
 /* Nosotros */
 
+/* Footer */
+
+/* Footer */
+.footer{
+  width: 100%;
+  height: 250px;
+  background-color: aliceblue;
+  border: 1px solid black;
+  border-radius: 15px 15px 0px 0px;
+  align-items: center;
+  text-align: center;
+}
+
+.noticias{
+  height: 200px;
+  width: 350px;
+  align-items: center;
+  text-align: center;
+}
+
+.noticias span{
+font-size: 25px;
+padding: 20px;
+text-transform: uppercase;
+}
+
+.info{
+  height: 200px;
+  width: 350px;
+  align-items: center;
+  text-align: center;
+} 
+
+.info span{
+font-size: 25px;
+padding: 20px;
+text-transform: uppercase;
+}
+
+.redes{
+  height: 200px;
+  width: 350px;
+  align-items: center;
+  text-align: center;
+}
+
+.redes span{
+font-size: 25px;
+padding: 20px;
+text-transform: uppercase;
+}
 /*# sourceMappingURL=styles.css.map */
