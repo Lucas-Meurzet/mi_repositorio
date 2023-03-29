@@ -190,10 +190,84 @@ border-radius: 5px;
 .pie{
   width: 100%;
   height: auto;
-  background-color: aliceblue;
+  background-color: rgb(40, 44, 47);
   border: 1px black solid;
+  padding: 20px;
 }
 
+.marca{
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+}
+.marca h6{
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.marca p{
+  font-size: 12px;
+  color: white;
+  display: block;
+}
+
+.redes{
+text-align: center;
+justify-content: center;
+padding: 15px;
+}
+
+.redes h6{
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.redes a{
+  display: block;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.información{
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.información h6{
+font-size: 15px;
+color: white;
+text-transform: uppercase;
+}
+
+.información a{
+  font-size: 12px;
+  color: whitesmoke;
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.other{
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.other h6{
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.other p{
+  font-size: 12px;
+  color: whitesmoke;
+}
 /* Footer */
 
 
