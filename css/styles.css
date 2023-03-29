@@ -52,7 +52,7 @@ justify-content: center;
 
 /* Index Main */
 .computadoras{
-  height: 600px;
+  height: auto;
   width: 600px;
   margin: 10px; 
 }
@@ -64,8 +64,19 @@ object-fit: contain;
   color: white;
 } 
 
+.computadoras h5{
+text-transform: uppercase;
+background-color: transparent black;
+border: 1px solid;
+border-radius: 5px;
+height: 30px;
+text-align: center;
+justify-content: center;
+box-sizing: border-box;
+}
+
 .componentes{
-  height: 600px;
+  height: auto;
   width: 600px;
   margin: 10px;
 }
@@ -77,6 +88,16 @@ object-fit: contain;
   color: white;
 } 
 
+.componentes h5{
+  text-transform: uppercase;
+background-color: black;
+border: 1px solid;
+border-radius: 5px;
+height: 30px;
+text-align: center;
+justify-content: center;
+box-sizing: border-box;
+}
 /* Index Main */
 
 /* Servicios */
@@ -215,8 +236,6 @@ border-radius: 5px;
   background-color: rgb(40, 44, 47);
   border: 1px black solid;
   padding: 20px;
-  text-align: center;
-  justify-content: space-between;
 }
 
 .marca{
