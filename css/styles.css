@@ -5,7 +5,6 @@
   padding: 0px;
   margin: 0px;
 }     
-
 /* Selector Universal */
 
 /* Fondo Animado */
@@ -27,6 +26,29 @@ body{
 }
 }
 /* Fondo Animado */
+
+/* Navegador */
+.navbar-toggler{
+  background-color: white;
+}
+
+.navbar-brand{
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.nav-link{
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.collapse{
+text-align: center;
+justify-content: center;
+}
+/* Navegador */
 
 /* Index Main */
 .computadoras{
