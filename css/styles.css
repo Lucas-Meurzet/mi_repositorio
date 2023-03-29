@@ -30,9 +30,9 @@ body{
 
 /* Index Main */
 .computadoras{
-  height: 300px;
-  width: 350px;
-  margin: 0px; 
+  height: 600px;
+  width: 600px;
+  margin: 10px; 
 }
 .computadoras img{
 object-fit: contain;
@@ -43,9 +43,9 @@ object-fit: contain;
 } 
 
 .componentes{
-  height: 300px;
-  width: 350px;
-  margin: 0px;
+  height: 600px;
+  width: 600px;
+  margin: 10px;
 }
 .componentes img{
 object-fit: contain;
@@ -189,28 +189,11 @@ border-radius: 5px;
 /* Footer */
 .pie{
   width: 100%;
-  height: 350px;
+  height: 300px;
   background-color: aliceblue;
   border: 1px black solid;
 }
 
-.info{
-background-color: #00B7D4;
-height: 100px;
-width: 250px;
-}
-
-.redes{
-background-color: #00B7D4;
-height: 100px;
-width: 250px;
-}
-
-.noticias{
-background-color: #00B7D4;
-height: 100px;
-width: 250px;
-}
 /* Footer */
 
 
