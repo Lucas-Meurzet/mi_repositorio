@@ -38,10 +38,6 @@ body{
   font-size: 25px;
 }
 
-a:hover{
-color: aqua;
-}
-
 .nav-link{
   color: white;
   font-size: 15px;
@@ -153,20 +149,26 @@ justify-content: center;
 /* Formulario */
 
 /* Nosotros */
+
 .nosotros-main{
-width: 100%;
-height: 80%;
+width: 80%;
+height: auto;
 margin: 20px;
 padding: 60px;
 box-sizing: border-box;
 }
+.nosotros{
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
 
-.nosotros-main h2{
+.nosotros-main h1{
   font-size: 55px;
   text-transform: uppercase;
   text-align: center;
   color: white;
-  background-color: black;
+  background-color:rgb(40, 44, 47);
   border-radius: 5px;
 }
 
@@ -179,7 +181,7 @@ color: white;
 text-transform: uppercase;
 text-align: center;
 margin-top: 80px;
-background-color: black;
+background-color: rgb(40, 44, 47);
 border-radius: 5px;
 }
 .nosotros p{
@@ -197,7 +199,7 @@ color: white;
 text-transform: uppercase;
 text-align: center;
 margin-top: 45px;
-background-color: black;
+background-color:rgb(40, 44, 47);
 border-radius: 5px;
 }
 .metodo p{
@@ -215,7 +217,7 @@ color: white;
 text-transform: uppercase;
 text-align: center;
 margin-top: 45px;
-background-color: black;
+background-color:rgb(40, 44, 47);
 border-radius: 5px;
 }
 .marcas p{
@@ -233,7 +235,7 @@ color: white;
 text-transform: uppercase;
 text-align: center;
 margin-top: 45px;
-background-color: black;
+background-color:rgb(40, 44, 47);
 border-radius: 5px;
 }
 .ubicación p{
@@ -247,7 +249,7 @@ border-radius: 5px;
 .pie{
   width: 100%;
   height: auto;
-  background-color: rgb(40, 44, 47);
+  background-color:rgb(40, 44, 47);
   border: 1px black solid;
   padding: 20px;
 }
