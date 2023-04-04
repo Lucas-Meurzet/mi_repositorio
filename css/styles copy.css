@@ -1,0 +1,360 @@
+/* {} &*/
+
+/* Selector Universal */
+* {
+  padding: 0px;
+  margin: 0px;
+}     
+/* Selector Universal */
+
+/* Fondo Animado */
+/* #00B7D4, #505488, #2F3F80, #161569, #5A4894 ,#A950A1, #FF7CAE */
+
+body{
+  background-image: linear-gradient(135deg,rgba(2,0,36,1) 4%, rgba(6,5,84,1) 23%, rgba(9,9,121,1) 38%, rgba(7,55,151,1) 55%, rgba(5,100,181,1) 72%, rgba(3,156,218,1) 86%, rgba(0,212,255,1) 100%);
+  background-size: 500%;
+  animation: fondoanimado 30s infinite;
+}
+
+@keyframes fondoanimado{
+  0%{ 
+    background-position: 0% 50%;
+}
+50%{
+  background-position: 100% 50%;
+}
+100%{
+  background-position: 0% 50%;
+}
+}
+/* Fondo Animado */
+
+/* Navegador */
+.navbar-toggler{
+  background-color: white;
+}
+
+.navbar-brand{
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.nav-link{
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.collapse{
+text-align: center;
+justify-content: center;
+}
+/* Navegador */
+
+/* Index Main */
+
+.computadoras{
+  height: auto;
+  width: 600px;
+  margin: 10px; 
+  text-align: center;
+}
+.computadoras img{
+object-fit: contain;
+}
+.computadoras button a{
+  text-decoration: none;
+  color: white;
+} 
+
+.computadoras button{
+  margin-top: 10px;
+}
+
+.computadoras h5{
+text-transform: uppercase;
+background-color:rgb(40, 44, 47);
+border: 1px solid;
+border-radius: 5px;
+height: 30px;
+text-align: center;
+justify-content: center;
+box-sizing: border-box;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.componentes{
+  height: auto;
+  width: 600px;
+  margin: 10px;
+  text-align: center;
+}
+.componentes img{
+object-fit: contain;
+}
+
+.componentes button{
+  margin-top: 10px;
+}
+
+.componentes button a{
+  text-decoration: none;
+  color: white;
+} 
+
+.componentes h5{
+  text-transform: uppercase;
+background-color:rgb(40, 44, 47);
+border: 1px solid;
+border-radius: 5px;
+height: 30px;
+text-align: center;
+justify-content: center;
+box-sizing: border-box;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+/* Index Main */
+
+/* Servicios */
+.servicio-1{
+margin: 30px;
+display: flex;
+text-align: center;
+justify-content: center;
+}
+
+.servicio-2{
+  margin: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.servicio-3{
+  margin: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+/* Servicios */
+
+/* Formulario */
+.formulario {
+  border: 1px solid black;
+  border-radius: 1vh;
+  background-color: rgb(40, 44, 47);
+  width: 90%;
+  height: 700px;
+  margin: 50px;
+  padding: 35px;
+  display: flex;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.formulario label{
+  color: white;
+}
+
+.botonform{
+  text-align: center;
+  justify-content: center;
+}
+
+/* Formulario */
+
+/* Nosotros */
+
+.nosotros-main{
+width: 80%;
+height: auto;
+margin: 20px;
+padding: 60px;
+box-sizing: border-box;
+align-items: center;
+}
+.nosotros{
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+.nosotros-main h1{
+  font-size: 45px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  background-color:rgb(40, 44, 47);
+  border-radius: 5px;
+ 
+}
+
+.nosotros{
+  padding: 5px;
+}
+.nosotros h3{
+font-size: 30px;
+color: white;
+text-transform: uppercase;
+text-align: center;
+margin-top: 80px;
+background-color: rgb(40, 44, 47);
+border-radius: 5px;
+}
+.nosotros p{
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+
+.metodo{
+  padding: 5px;
+}
+.metodo h3{
+font-size: 30px;
+color: white;
+text-transform: uppercase;
+text-align: center;
+margin-top: 45px;
+background-color:rgb(40, 44, 47);
+border-radius: 5px;
+}
+.metodo p{
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+
+.marcas{
+  padding: 5px;
+}
+.marcas h3{
+font-size: 30px;
+color: white;
+text-transform: uppercase;
+text-align: center;
+margin-top: 45px;
+background-color:rgb(40, 44, 47);
+border-radius: 5px;
+}
+.marcas p{
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+
+.ubicación{
+  padding: 5px;
+}
+.ubicación h3{
+font-size: 30px;
+color: white;
+text-transform: uppercase;
+text-align: center;
+margin-top: 45px;
+background-color:rgb(40, 44, 47);
+border-radius: 5px;
+}
+.ubicación p{
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+/* Nosotros */
+
+/* Footer */
+.pie{
+  width: 100%;
+  height: auto;
+  background-color:rgb(40, 44, 47);
+  border: 1px black solid;
+  padding: 20px;
+}
+
+.marca{
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+}
+.marca h6{
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.marca p{
+  font-size: 12px;
+  color: white;
+  display: block;
+}
+
+.redes{
+text-align: center;
+justify-content: center;
+padding: 15px;
+}
+
+.redes h6{
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.redes a{
+  display: block;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.información{
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.información h6{
+font-size: 15px;
+color: white;
+text-transform: uppercase;
+}
+
+.información a{
+  font-size: 12px;
+  color: whitesmoke;
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.other{
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.other h6{
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.other p{
+  font-size: 12px;
+  color: whitesmoke;
+}
+
+.other a{
+  text-decoration: none;
+  color: white;
+}
+/* Footer */
+
+
+/*# sourceMappingURL=styles.css.map */
