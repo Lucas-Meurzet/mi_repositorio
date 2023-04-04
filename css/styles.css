@@ -327,6 +327,12 @@ text-transform: uppercase;
   font-size: 12px;
   color: whitesmoke;
 }
+
+.other a{
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
 /* Footer */
 
 
