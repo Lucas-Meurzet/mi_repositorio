@@ -331,7 +331,6 @@ text-transform: uppercase;
 .other a{
   text-decoration: none;
   color: white;
-  text-transform: capitalize;
 }
 /* Footer */
 
