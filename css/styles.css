@@ -21,23 +21,20 @@ body {
   }
 }
 
-.navbar-toggler {
+.nav-bar .navbar-toggler {
   background-color: white;
 }
-
-.navbar-brand {
+.nav-bar .navbar-brand {
   color: white;
   text-transform: uppercase;
   font-size: 25px;
 }
-
-.nav-link {
+.nav-bar .nav-link {
   color: white;
   font-size: 15px;
   text-transform: uppercase;
 }
-
-.collapse {
+.nav-bar .collapse {
   text-align: center;
   justify-content: center;
 }
