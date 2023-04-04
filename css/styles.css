@@ -122,21 +122,21 @@ margin-bottom: 10px;
 
 /* Servicios */
 .servicio-1{
-margin: 10vh;
+margin: 30px;
 display: flex;
 text-align: center;
 justify-content: center;
 }
 
 .servicio-2{
-  margin: 10vh;
+  margin: 30px;
   display: flex;
   text-align: center;
   justify-content: center;
 }
 
 .servicio-3{
-  margin: 10vh;
+  margin: 30px;
   display: flex;
   text-align: center;
   justify-content: center;
