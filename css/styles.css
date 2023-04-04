@@ -56,6 +56,7 @@ justify-content: center;
   height: auto;
   width: 600px;
   margin: 10px; 
+  text-align: center;
 }
 .computadoras img{
 object-fit: contain;
@@ -64,6 +65,10 @@ object-fit: contain;
   text-decoration: none;
   color: white;
 } 
+
+.computadoras button{
+  margin-top: 10px;
+}
 
 .computadoras h5{
 text-transform: uppercase;
@@ -74,16 +79,25 @@ height: 30px;
 text-align: center;
 justify-content: center;
 box-sizing: border-box;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 .componentes{
   height: auto;
   width: 600px;
   margin: 10px;
+  text-align: center;
 }
 .componentes img{
 object-fit: contain;
 }
+
+.componentes button{
+  margin-top: 10px;
+}
+
 .componentes button a{
   text-decoration: none;
   color: white;
@@ -98,6 +112,9 @@ height: 30px;
 text-align: center;
 justify-content: center;
 box-sizing: border-box;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 /* Index Main */
 
