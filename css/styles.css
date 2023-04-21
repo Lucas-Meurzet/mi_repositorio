@@ -28,11 +28,37 @@ body {
   color: white;
   text-transform: uppercase;
   font-size: 25px;
+  transition: font-size 0.3s ease;
+}
+.nav-bar .navbar-brand:hover {
+  animation: agrandar 0.3s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes agrandar {
+  from {
+    font-size: 25px;
+  }
+  to {
+    font-size: 28px;
+  }
 }
 .nav-bar .nav-link {
   color: white;
   font-size: 15px;
   text-transform: uppercase;
+  transition: font-size 0.5s ease;
+}
+.nav-bar .nav-link:hover {
+  animation: agrandar-link 0.5s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes agrandar-link {
+  from {
+    font-size: 15px;
+  }
+  to {
+    font-size: 20px;
+  }
 }
 .nav-bar .collapse {
   text-align: center;
@@ -118,6 +144,7 @@ body {
   display: flex;
   text-align: center;
   justify-content: center;
+  transition: transform 1.5s ease-in-out;
 }
 
 .formulario {
@@ -259,6 +286,7 @@ body {
 
 .ubicación {
   padding: 5px;
+  width: 300px;
 }
 .ubicación h3 {
   font-size: 30px;
