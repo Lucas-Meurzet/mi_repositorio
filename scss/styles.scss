@@ -146,6 +146,22 @@ h5{
     display: flex;
     text-align: center;
     justify-content: center;
+    transition: transform 0.3s ease;  
+    &:hover{
+    transform: scale(1.1); 
+    }
+
+.card {
+background-color: rgb(40, 44, 47);
+}
+
+.card-title{ 
+    color: white;
+}
+.card-text{
+    color: white;
+}
+
 }
     
 .servicio-2{
@@ -153,6 +169,21 @@ h5{
     display: flex;
     text-align: center;
     justify-content: center;
+    transition: transform 0.3s ease;  
+    &:hover{
+    transform: scale(1.1); 
+    }
+
+.card {
+background-color: rgb(40, 44, 47);
+} 
+
+.card-title{ 
+    color: white;
+}
+.card-text{
+    color: white;
+}
 }
 
 .servicio-3{
@@ -160,9 +191,22 @@ h5{
     display: flex;
     text-align: center;
     justify-content: center;
-    transition: transform 1.5s ease-in-out;
+    transition: transform 0.3s ease;  
+    &:hover{
+    transform: scale(1.1); 
+    }
+
+.card {
+background-color: rgb(40, 44, 47);
 }
 
+.card-title{ 
+    color: white;
+}
+.card-text{
+    color: white;
+}
+}
 
 .formulario{
   border: 1px solid black;
@@ -202,7 +246,7 @@ h1{
   text-align: center;
   color: white;
   background-color:rgb(40, 44, 47);
-  border-radius: 5px;  
+  border-radius: 5px; 
 }
 }
 
@@ -266,56 +310,6 @@ p{
     color: white;
     font-size: 20px; 
 }
-}
-
-
-.pie{
-    width: 100%;
-    height: auto;
-    background-color:rgb(40, 44, 47);
-    border: 1px black solid;
-    padding: 20px;
-}
-    
-    .marca {
-        padding: 5px;
-        
-h3 {
-    font-size: 30px;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 45px;
-    background-color:rgb(40, 44, 47);
-    border-radius: 5px;
-}
-
-p{
-    justify-content: center;
-    color: white;
-    font-size: 20px; 
-}
-}
-
-.ubicación{
-    padding: 5px;
-    width: 300px;
-    
-    h3{
-        font-size: 30px;
-        color: white;
-        text-transform: uppercase;
-        text-align: center;
-        margin-top: 45px;
-        background-color:rgb(40, 44, 47);
-        border-radius: 5px;  
-    }
-    
-    p{
-        justify-content: center;
-        color: white;
-        font-size: 20px;
-    }
 }
 
 .pie{

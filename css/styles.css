@@ -130,6 +130,19 @@ body {
   display: flex;
   text-align: center;
   justify-content: center;
+  transition: transform 0.3s ease;
+}
+.servicio-1:hover {
+  transform: scale(1.1);
+}
+.servicio-1 .card {
+  background-color: rgb(40, 44, 47);
+}
+.servicio-1 .card-title {
+  color: white;
+}
+.servicio-1 .card-text {
+  color: white;
 }
 
 .servicio-2 {
@@ -137,6 +150,19 @@ body {
   display: flex;
   text-align: center;
   justify-content: center;
+  transition: transform 0.3s ease;
+}
+.servicio-2:hover {
+  transform: scale(1.1);
+}
+.servicio-2 .card {
+  background-color: rgb(40, 44, 47);
+}
+.servicio-2 .card-title {
+  color: white;
+}
+.servicio-2 .card-text {
+  color: white;
 }
 
 .servicio-3 {
@@ -144,7 +170,19 @@ body {
   display: flex;
   text-align: center;
   justify-content: center;
-  transition: transform 1.5s ease-in-out;
+  transition: transform 0.3s ease;
+}
+.servicio-3:hover {
+  transform: scale(1.1);
+}
+.servicio-3 .card {
+  background-color: rgb(40, 44, 47);
+}
+.servicio-3 .card-title {
+  color: white;
+}
+.servicio-3 .card-text {
+  color: white;
 }
 
 .formulario {
@@ -235,51 +273,6 @@ body {
   border-radius: 5px;
 }
 .marcas p {
-  justify-content: center;
-  color: white;
-  font-size: 20px;
-}
-
-.pie {
-  width: 100%;
-  height: auto;
-  background-color: rgb(40, 44, 47);
-  border: 1px black solid;
-  padding: 20px;
-}
-
-.marca {
-  padding: 5px;
-}
-.marca h3 {
-  font-size: 30px;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  margin-top: 45px;
-  background-color: rgb(40, 44, 47);
-  border-radius: 5px;
-}
-.marca p {
-  justify-content: center;
-  color: white;
-  font-size: 20px;
-}
-
-.ubicación {
-  padding: 5px;
-  width: 300px;
-}
-.ubicación h3 {
-  font-size: 30px;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  margin-top: 45px;
-  background-color: rgb(40, 44, 47);
-  border-radius: 5px;
-}
-.ubicación p {
   justify-content: center;
   color: white;
   font-size: 20px;
