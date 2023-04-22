@@ -46,10 +46,10 @@ body {
   color: white;
   font-size: 15px;
   text-transform: uppercase;
-  transition: font-size 0.5s ease;
+  transition: font-size 0.3s ease;
 }
 .nav-bar .nav-link:hover {
-  animation: agrandar-link 0.5s ease;
+  animation: agrandar-link 0.3s ease;
   animation-fill-mode: forwards;
 }
 @keyframes agrandar-link {
@@ -168,7 +168,7 @@ body {
 }
 
 .nosotros-main {
-  width: 80%;
+  width: auto;
   height: auto;
   margin: 20px;
   padding: 60px;
@@ -235,24 +235,6 @@ body {
   border-radius: 5px;
 }
 .marcas p {
-  justify-content: center;
-  color: white;
-  font-size: 20px;
-}
-
-.ubicación {
-  padding: 5px;
-}
-.ubicación h3 {
-  font-size: 30px;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  margin-top: 45px;
-  background-color: rgb(40, 44, 47);
-  border-radius: 5px;
-}
-.ubicación p {
   justify-content: center;
   color: white;
   font-size: 20px;

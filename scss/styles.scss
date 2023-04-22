@@ -51,9 +51,9 @@ body{
         color: white;
         font-size: 15px;
     text-transform: uppercase;
-    transition: font-size 0.5s ease;
+    transition: font-size 0.3s ease;
       &:hover {
-        animation: agrandar-link 0.5s ease;
+        animation: agrandar-link 0.3s ease;
         animation-fill-mode: forwards;
     }
 
@@ -189,7 +189,7 @@ label{
 
 
 .nosotros-main{
-    width: 80%;
+    width: auto;
     height: auto;
     margin: 20px;
     padding: 60px;
@@ -268,25 +268,6 @@ p{
 }
 }
 
-.ubicación{
-    padding: 5px;
-
-h3{
-    font-size: 30px;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 45px;
-    background-color:rgb(40, 44, 47);
-    border-radius: 5px;  
-}
-
-p{
-    justify-content: center;
-    color: white;
-    font-size: 20px;
-}
-}
 
 .pie{
     width: 100%;
